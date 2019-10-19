@@ -6,8 +6,8 @@ before_script:
   - mkdir ../build
   - cd ../build
 script:
-  - cmake ../3818
+  - cmake ../381808-1_KamskovEM_1
   - make -j
-  - ./vector/vector
+  - ./Test
 notifications:
   email: false
